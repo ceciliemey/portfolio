@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cecilia Mayer | Portfólio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<header class="header">
+    <a href="#" class="logo">&lt;Cecilia Mayer&gt;</a>
+    <nav class="nav">
+        </nav>
+
+    <div class="lang-selector">
+        <button id="lang-br" class="lang-btn active-lang" data-lang="pt" title="Português">
+            <img src="brasil.jpg" alt="Português">
+        </button>
+        <span>|</span>
+        <button id="lang-en" class="lang-btn" data-lang="en" title="English">
+            <img src="uk.png" alt="English">
+        </button>
+    </div>
+
+    <button id="mode-toggle" title="Alternar Modo Escuro/Claro">
+        <i class="fas fa-sun"></i> 
+    </button>
+</header>
+
+<section id="home" class="hero">
+    <div class="hero-content">
+        <p class="greeting" data-key="heroGreeting">Olá, eu sou</p>
+        <h1 data-key="heroName">Cecilia Mayer</h1>
+        <p class="bio" data-key="heroBio">Transformo conceitos em experiências visuais intensas e memoráveis. Designer, ilustradora e criadora de interfaces com foco em UX/UI.</p>
+        <a href="#projetos" class="btn primary-btn" data-key="heroButton">Ver Projetos</a>
+        </div>
+    </section>
+
+    <section id="habilidades" class="skills section">
+        <h2>Habilidades</h2>
+
+        <div class="software-grid">
+            <div class="software-card">
+                <img src="clipstudio.jpg" alt="Clip Studio Paint">
+                <p>Clip Studio Paint</p>
+                <div class="skill-bar">
+                    <div class="skill-fill" style="width: 90%;"></div>
+                </div>
+            </div>
+
+            <div class="software-card">
+                <img src="ilustrator.png" alt="Illustrator">
+                <p>Illustrator</p>
+                <div class="skill-bar">
+                    <div class="skill-fill" style="width: 30%;"></div>
+                </div>
+            </div>
+
+            <div class="software-card">
+                <img src="photo.png" alt="Photoshop">
+                <p>Photoshop</p>
+                <div class="skill-bar">
+                    <div class="skill-fill" style="width: 55%;"></div>
+                </div>
+            </div>
+
+            <div class="software-card">
+                <img src="ae.png" alt="After Effects">
+                <p>After Effects</p>
+                <div class="skill-bar">
+                    <div class="skill-fill" style="width: 85%;"></div>
+                </div>
+            </div>
+
+            <div class="software-card">
+                <img src="premiere.png" alt="Premiere">
+                <p>Premiere</p>
+                <div class="skill-bar">
+                    <div class="skill-fill" style="width: 90%;"></div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="projetos" class="projects section">
+        <h2>Meus Projetos de Destaque</h2>
+        <div class="projects-grid">
+            <div class="project-card" style="background-image: url('img1.png');">
+                <div class="project-overlay">
+                    <h3>Ilustração Digital</h3>
+                    <p>Ilustração realizada no aplicativo Clip Studio Paint.</p>
+                    <div class="project-links">
+                        <a href="#" target="_blank" class="btn small-btn">Ver Projeto</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card" style="background-image: url('img4.png');">
+                <div class="project-overlay">
+                    <h3>Ilustração Digital</h3>
+                    <p>Ilustração realizada no aplicativo Clip Studio Paint.</p>
+                    <div class="project-links">
+                        <a href="#" target="_blank" class="btn small-btn">Ver Projeto</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card" style="background-image: url('img3.png');">
+                <div class="project-overlay">
+                    <h3>Design de UX/UI para plataforma de ensino de idiomas.</h3>
+                    <p>Plataforma de ensino de idiomas com foco em gamificação e experiência do usuário.</p>
+                    <div class="project-links">
+                        <a href="#" target="_blank" class="btn small-btn">Ver Projeto</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="contact section">
+        <h2>Vamos Trabalhar Juntos?</h2>
+        <p>Entre em contato para orçamentos, parcerias ou apenas para tomar um café.</p>
+        <form id="contact-form">
+            <input type="text" name="name" placeholder="Seu Nome" required>
+            <input type="email" name="email" placeholder="Seu Email" required>
+            <textarea name="message" placeholder="Sua Mensagem" required></textarea>
+            <button type="submit" class="btn primary-btn">Enviar Mensagem</button>
+            <p id="form-message" class="message-feedback"></p>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2026 Cecilia Mayer. Feito com paixão e arte.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
