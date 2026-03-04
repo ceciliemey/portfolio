@@ -364,4 +364,17 @@ body {
     height: 24px;
     object-fit: cover;
     border-radius: 4px;
+
+}
+.hero {
+    color: #ffffff
+}
+.hero h1 {
+    color: #ffffff
+}
+.hero p {
+    color: #ffffff
+}
+.hero .btn {
+    color: #ffffff
 }
